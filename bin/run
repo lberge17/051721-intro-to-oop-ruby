@@ -2,4 +2,7 @@
 
 require_relative "../config/environment"
 
+laura = Parent.new("Laura")
+laura.have_child("Jitta")
+
 binding.pry
